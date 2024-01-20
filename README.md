@@ -1,8 +1,10 @@
 
 
 # spam_message_detection
-1)because nltk is big library so we have to give the corpus /function we want from it so that only that is downloaded on server and deployed......otherwise we get error
-2)whatever lib u mentioned in requirements.txt can be downloaded in ur myenv by executing this command in cmd --> pip install -r requirements.txt 
-3)i am going to deploy this model using Dockers and Github action(CI/CD pipeline ie;as soon as i commit something chnage from myside to github then(using git push)the automatic deployment will occur w/o humans regular involvement),,MLOPS kind of thing..
-ie;i create a Docker image on my side,,,and run it in container(like a virtual m/c which downloads all dependecy what we mentioned in Dockerfile form Docker_HUB with base o.s as linux if we didnt mention any o.s)  ...
-4)we share this Docker image on heroku ,,there this image is runned as container,,,,and our website is running in this container,,,like this we deploy our model.. 
+1)because nltk is big library so we have to give the corpus /function we want from it so that only that is downloaded on server and deployed......otherwise we get error<br>
+2)whatever lib u mentioned in requirements.txt can be downloaded in ur myenv by executing this command in cmd --> pip install -r requirements.txt <br>
+3)i am going to deploy this model using Dockers and Github action(CI/CD pipeline ie;as soon as i commit something chnage from myside to github then(using git push)the automatic deployment will occur w/o humans regular involvement),,MLOPS kind of thing..<br>
+ie;i create a Docker image on my side,,,and run it in container(like a virtual m/c which downloads all dependecy what we mentioned in Dockerfile form Docker_HUB with base o.s as linux if we didnt mention any o.s)  ...<br>
+4)we share this Docker image on heroku ,,there this image is runned as container,,,,and our website is running in this container,,,like this we deploy our model.. <br>
+
+5)web application link -> https://spam-message-detection-sj.onrender.com/
