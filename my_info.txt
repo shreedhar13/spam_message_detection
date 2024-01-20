@@ -4,3 +4,8 @@ in powershell which is bydefault CLI in vs code,,here above commands are not exe
 
 and mention this file(my_info.txt ,and myenv folder )in .gitignore file so that when u push this repo
 ie;SPAM_DETECTION_WEB_APP to Github then git push will ignore these file(ie;not push to github)
+
+NOTE->bcz heroku stopped its free service,,so i am deploying this application on "render" ..which is hosting platform..
+where it connects with ur github,,thus automatically CI/CD pipeline is created......as u push some changes in ur github w.r.t this already deployed application repo,,automatically changes is reflected in ur hosted website.....
+
+IMP point-> after words do dockerization on this repo deploy it on docker hub  and then pull it in aws ECR...and launch ec2 instances...configure ci/cd in that (see krish naik video ...production level deployment)......
