@@ -1,0 +1,6 @@
+activate and deactivate virtual environment work in command prompt/shell so navigate cmd in vs code and 
+execute myenv\Scripts\activate,,,myenv\Scripts\deactivate
+in powershell which is bydefault CLI in vs code,,here above commands are not execute at all...so switch to cmd in vs code
+
+and mention this file(my_info.txt ,and myenv folder )in .gitignore file so that when u push this repo
+ie;SPAM_DETECTION_WEB_APP to Github then git push will ignore these file(ie;not push to github)

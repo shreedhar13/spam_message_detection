@@ -1,3 +1,4 @@
+#READ LAST LINE,,I SPEAK ABOUT VIRTUAL ENVIRONMENT
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -158,3 +159,16 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+#i want to ignore these below files
+/myenv
+#remaining other files are pushed to Github except this myenv....
+#.gitignore , app.py , LICENCE , model.pkl , my_info.txt , preprocess.pkl ,
+# README.md . requirements.txt , vectorizer.pkl
+#myenv is a virtual environment,,,which is created for development stage...ie;if u dont create it then 
+#if u install some dependency(libraries) then most of the times it is not compatible,,bcz there are many
+#libraries and files i previously installed thus  we cant develop the project efficientlt
+#ie; we face more issues and and spend more time on resolving them instead developing the project
+
+#so best practice is to create virtual environment and download all dependency in that environmen 
+#which do not collide/conflict with previously dependency in actual environment(ie;windows default environment)
