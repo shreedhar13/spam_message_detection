@@ -35,7 +35,7 @@ def transform_text(text):
         
     return " ".join(y)
 
-st.title("EMAIL/SPAM CLASSIFIER")
+st.title("EMAIL/MESSAGE SPAM CLASSIFIER")
 
 input_sms=st.text_input('Enter the message')
 
